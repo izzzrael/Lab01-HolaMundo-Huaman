@@ -14,7 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.huaman.lab01holamundo.ui.theme.Lab01HolaMundoTheme
 import androidx.compose.foundation.layout.Column
 import androidx.compose.ui.unit.sp
-
+import androidx.compose.material3.Button
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +43,11 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(
             text = "Curso: Programación en Móviles"
         )
+        Button(
+            onClick = {}
+        ){
+            Text("Presioname")
+        }
     }
 }
 
